@@ -10,6 +10,10 @@ The simulated annealing algorithm gives you more guarantee that you will end up 
 
 `sample.R` contains sample code, comparing the above methods with the original implementation of the k-means algorithm.
 
+# Dependencies
+
+`Rcpp` and `RcppArmadillo`
+
 # References
 
 Sanghamitra Bandyopadhyay, Ujjwal Maulik and Malay Kumar Pakhira.

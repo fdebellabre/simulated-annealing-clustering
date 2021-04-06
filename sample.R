@@ -45,8 +45,8 @@ perf_SA <- function(Z, K, n=20) {
   return(c(mean=mean(value), min=min(value), max=max(value)))
 }
 
-SA_iris <- perf_SA(X_iris, K=3)
-KM_iris <- perf_KM(X_iris, K=3)
+perf_SA(X_iris, K=3)
+perf_KM(X_iris, K=3)
 
 
 ### ------------------------------ Speed benchmark (lower is better)
